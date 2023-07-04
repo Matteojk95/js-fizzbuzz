@@ -1,7 +1,5 @@
-console.log("ciao");
-
 for (let i=0; i<=100; i++) {
-    document.getElementById("squarescontainer").innerHTML+= `<div class="square">
+    document.getElementById("squaresContainer").innerHTML+= `<div class="square">
        <p class="text-center text-white fs-3 fw-3 vertical-align-square">${i}</p>
        </div>`
        ;     
@@ -9,11 +7,8 @@ for (let i=0; i<=100; i++) {
  
 // Scrivi un programma che stampi i numeri da 1 a 100
 for (let i=0; i<=100, i++) {
-    console.log(i);
-}
 
 // per i multipli di 3 stampi “Fizz” al posto del numero 
-
 if (i % 3 == 0) {
     console.log ("fizz");
 } else if (i % 5 == 0) {
@@ -23,4 +18,5 @@ console.log ("buzz");
     console.log ("FizzBuzz");
 } else {
     console.log ("i");
+}
 }
