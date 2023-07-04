@@ -6,7 +6,7 @@ for (let i=0; i<=100; i++) {
 }
  
 // Scrivi un programma che stampi i numeri da 1 a 100
-for (let i=0; i<=100, i++) {
+for (let i=0; i<=100; i++) {
 
 // per i multipli di 3 stampi “Fizz” al posto del numero 
 if (i % 3 == 0) {
